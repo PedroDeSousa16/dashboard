@@ -1,0 +1,182 @@
+/*
+body{
+    background: -moz-linear-gradient(top, rgb(12,68,235) 0%, rgb(12,68,235) 39%, rgb(255,255,255) 39%, rgb(255,255,255) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(12,68,235)), color-stop(39%, rgb(12,68,235)), color-stop(39%, rgb(255,255,255)), color-stop(100%, rgb(255,255,255)));
+    background: -webkit-linear-gradient(top, rgb(12,68,235) 0%, rgb(12,68,235) 39%, rgb(255,255,255) 39%, rgb(255,255,255) 100%);
+    background: -o-linear-gradient(top, rgb(12,68,235) 0%, rgb(12,68,235) 39%, rgb(255,255,255) 39%, rgb(255,255,255) 100%);
+    background: -ms-linear-gradient(top, rgb(12,68,235) 0%, rgb(12,68,235) 39%, rgb(255,255,255) 39%, rgb(255,255,255) 100%);
+    background: linear-gradient(to bottom, rgb(12,68,235) 0%, rgb(12,68,235) 39%, rgb(255,255,255) 39%, rgb(255,255,255) 100%);
+}
+*/
+    
+#menu{
+    background: rgb(24, 28, 255);
+}
+
+/*           menu           */
+.logo{
+   height: 60px;
+} 
+
+.home{
+    height: 60px;
+    text-align: center;
+}
+
+.search{
+    height: 60px;
+    text-align: center;
+}
+
+.bars{
+    height: 60px;
+    text-align: center;
+}
+
+/*          picture          */
+.avatar{
+    height: 260px;
+}
+
+.welcome{
+    height: 260px;
+}
+
+#picture h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#picture h3{
+    text-align: center;
+}
+
+/*          dashboard           */
+.menu{
+    background: rgb(195, 195, 250);
+    height: 910px;
+}
+
+.m1{
+    background: rgb(61, 61, 216);
+    height: 150px;
+    padding: 10px 50px 50px 10px;
+    margin: 40px 24px 20px 15px; 
+}
+
+.m2{
+    background: rgb(54, 54, 160);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 40px 10px 20px 20px;
+}
+
+.m3{
+    background: rgb(54, 54, 160);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 24px 20px 15px; 
+}
+
+.m4{
+    background: rgb(61, 61, 216);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 20px 20px;
+}
+
+.m5{
+    background: rgb(61, 61, 216);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 24px 20px 15px; 
+}
+
+.m6{
+    background: rgb(54, 54, 160);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 20px 20px;
+}
+
+.m7{
+    background: rgb(54, 54, 160);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 24px 20px 15px; 
+}
+
+.m8{
+    background: rgb(61, 61, 216);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 20px 20px;
+}
+
+.m9{
+    background: rgb(61, 61, 216);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 24px 20px 15px; 
+}
+
+.m10{
+    background: rgb(54, 54, 160);
+    height: 150px;
+    padding: 30px 30px 30px 30px;
+    margin: 10px 10px 20px 20px;
+}
+
+.applications{
+    background: rgb(205, 235, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 130px;
+}
+
+.documents{
+    background: rgb(174, 189, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.preference{
+    background: rgb(174, 189, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 130px;
+}
+
+.earn{
+    background: rgb(205, 235, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.message{
+    background: rgb(205, 235, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 130px;
+}
+
+.fee{
+    background: rgb(174, 189, 255);
+    height: 290px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+    position: relative;
+    bottom: 10px;
+}
