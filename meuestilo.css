@@ -1,7 +1,7 @@
 
 body{
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(229,237,255,1) 70%, rgba(33,33,255,1) 0%, rgba(33,33,240,1) 100%);
+    background: linear-gradient(0deg, rgba(229,237,255,1) 70%, rgb(63, 63, 252) 0%, rgb(63, 63, 252) 100%);
 }
 
     
@@ -28,10 +28,9 @@ body{
 
 /*          picture          */
 .avatar{
-    height: 260px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url("/galo-cego.png");
+    
+
 }
 
 .welcome{
@@ -41,6 +40,8 @@ body{
 
 #picture h2{
     text-align: center;
+    position: relative;
+    margin: 200px 0px 0px 0px;
     text-transform: capitalize;
 }
 
@@ -51,142 +52,157 @@ body{
 /*          dashboard           */
 
 .m1{
-    background: rgb(61, 61, 216);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 10px 50px 50px 10px;
     margin: 105px 24px 20px 15px; 
     border-radius: 7%;
-    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m2{
-    background: rgb(54, 54, 160);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 105px 10px 20px 20px;
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m3{
-    background: rgb(54, 54, 160);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 24px 20px 15px; 
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m4{
-    background: rgb(61, 61, 216);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 10px 20px 20px;
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m5{
-    background: rgb(61, 61, 216);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 24px 20px 15px; 
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m6{
-    background: rgb(54, 54, 160);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 10px 20px 20px;
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m7{
-    background: rgb(54, 54, 160);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 24px 20px 15px; 
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m8{
-    background: rgb(61, 61, 216);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 10px 20px 20px;
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m9{
-    background: rgb(61, 61, 216);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 24px 20px 15px; 
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .m10{
-    background: rgb(54, 54, 160);
+    background: rgb(255, 255, 255);
     height: 150px;
     padding: 30px 30px 30px 30px;
     margin: 10px 10px 20px 20px;
     border-radius: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .applications{
-    background: rgb(205, 235, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
-    margin: 10px 20px 10px 10px;
+    margin: 40px 20px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .documents{
-    background: rgb(174, 189, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
     margin: 10px 20px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .preference{
-    background: rgb(174, 189, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
-    margin: 10px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .earn{
-    background: rgb(205, 235, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
     margin: 10px 10px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .message{
-    background: rgb(205, 235, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
-    margin: 10px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fee{
-    background: rgb(174, 189, 255);
+    background: rgb(255, 255, 255);
     height: 290px;
     margin: 10px 10px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
     border-radius: 4%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
