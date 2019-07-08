@@ -28,10 +28,14 @@ body{
 
 /*          picture          */
 .avatar{
-    background-image: url("/galo-cego.png");
-    
-
+    background-image: url("img/galo-cego.png");
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
+    right: -130px;
+    top: 20px;
 }
+    
 
 .welcome{
     height: 260px;
@@ -41,12 +45,15 @@ body{
 #picture h2{
     text-align: center;
     position: relative;
-    margin: 200px 0px 0px 0px;
+    margin: 200px 225px 0px -50px;
     text-transform: capitalize;
 }
 
 #picture h3{
     text-align: center;
+    position: relative;
+    right: 120px;
+    left: -140px;
 }
 
 /*          dashboard           */
@@ -54,7 +61,7 @@ body{
 .m1{
     background: rgb(255, 255, 255);
     height: 150px;
-    padding: 10px 50px 50px 10px;
+    padding: 30px 50px 50px 30px;
     margin: 105px 24px 20px 15px; 
     border-radius: 7%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
