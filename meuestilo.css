@@ -38,7 +38,8 @@ body{
 h1{
     color: white;
     position: relative;
-    left: 50px;
+    left: 80px;
+    text-shadow: 0.5px 0.5px 5px rgb(78, 78, 78);
 }
 .fa-search{
     color: rgb(56, 55, 55);
@@ -46,6 +47,7 @@ h1{
     left: 200px;
     z-index: 2;
 }
+
 
 /*          picture          */
 .avatar{
@@ -228,4 +230,5 @@ hr{
 p{
     text-align: center;
     position: relative; 
+    text-transform: capitalize;
 }
