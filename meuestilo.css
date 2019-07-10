@@ -1,7 +1,7 @@
 
 body{
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(229,237,255,1) 70%, rgb(63, 63, 252) 0%, rgb(63, 63, 252) 100%);
+    background: rgb(229,237,255);
+    background: linear-gradient(0deg, rgba(229,237,255,1) 69%, rgba(81,81,250,1) 69%, rgba(2,2,241,1) 180%);
 }
 
     
@@ -151,23 +151,21 @@ h1{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
-    box-shadow: 0px -30px 2px -7px rgba(231, 231, 231, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px -30px 2px -7px rgba(255, 255, 255, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
 }
 
-    
-   
-
-.documents{
+.message{
     background: rgb(255, 255, 255);
     height: 290px;
-    margin: 10px 20px 10px 10px;
+    margin: 40px 10px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
-    bottom: 10px;
-    box-shadow: 0px -30px 2px -7px rgba(231, 231, 231, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 130px;
+    box-shadow: 0px -30px 2px -7px rgba(255, 255, 255, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
 }
+
 
 .preference{
     background: rgb(255, 255, 255);
@@ -187,20 +185,21 @@ h1{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
-    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.9), 0px -58px 3px -17px rgba(190, 190, 190, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
 }
 
-.message{
+.documents{
     background: rgb(255, 255, 255);
     height: 290px;
-    margin: 40px 10px 10px 10px;
+    margin: 10px 20px 10px 10px;
     padding: 15px 15px 15px 15px;
     position: relative;
-    bottom: 130px;
-    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 10px;
+    box-shadow: 0px -30px 2px -7px rgba(231, 231, 231, 0.9), 0px -58px 3px -17px rgba(190, 190, 190, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
 }
+
 
 .fee{
     background: rgb(255, 255, 255);
@@ -209,7 +208,7 @@ h1{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
-    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.9), 0px -58px 3px -17px rgba(190, 190, 190, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
 }
 
@@ -227,8 +226,9 @@ hr{
     right: 50px;
 }
 
-p{
+.cards p{
     text-align: center;
     position: relative; 
     text-transform: capitalize;
+    top: 60px;
 }
