@@ -26,20 +26,37 @@ body{
     text-align: center;
 }
 
-.sl{
+.h4{
     text-transform: capitalize;
     color: white;
 }
 
+.fa-bell, .fa-cog, .fa-info-circle, .fa-sign-in-alt{
+    color:white;
+}
+
+h1{
+    color: white;
+    position: relative;
+    left: 50px;
+}
+.fa-search{
+    color: rgb(56, 55, 55);
+    position: relative;
+    left: 200px;
+    z-index: 2;
+}
+
 /*          picture          */
 .avatar{
-    background-image: url("/img/galo-cego.png");
+    background-image: url("img/galo-cego.png");
     background-repeat: no-repeat;
     padding: 10px;
     position: relative;
     right: -130px;
-    top: 10px;
-   
+    top: -5px;
+    height: auto;
+    width: 50px;
 }
 
 .welcome{
@@ -53,7 +70,7 @@ body{
 #picture h3{
     text-align: center;
     position: relative;
-    margin: 130px 200px 0px -60px;
+    margin: 170px 200px 0px -65px;
     text-transform: capitalize;
     color: white;
 }
@@ -61,8 +78,7 @@ body{
 #picture p{
     text-align: center;
     position: relative;
-    right: 120px;
-    left: -140px;
+    margin: 10px 200px 0px -65px;
     color: rgb(218, 218, 218);
 }
 
@@ -133,9 +149,12 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
+    box-shadow: 0px -30px 2px -7px rgba(231, 231, 231, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+    
+   
 
 .documents{
     background: rgb(255, 255, 255);
@@ -144,8 +163,8 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
+    box-shadow: 0px -30px 2px -7px rgba(231, 231, 231, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .preference{
@@ -155,8 +174,8 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
+    box-shadow: 0px -30px 2px -7px rgba(255, 255, 255, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .earn{
@@ -166,8 +185,8 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
+    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .message{
@@ -177,8 +196,8 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 130px;
+    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fee{
@@ -188,8 +207,8 @@ body{
     padding: 15px 15px 15px 15px;
     position: relative;
     bottom: 10px;
+    box-shadow: 0px -30px 2px -7px rgba(235, 235, 235, 0.8), 0px -58px 3px -17px rgba(255, 255, 255, 0.65), 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4%;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #dashboard h3{
